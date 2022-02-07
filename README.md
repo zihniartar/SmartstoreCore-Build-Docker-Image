@@ -16,8 +16,17 @@
 
 ###  Docker Image auf einem Server ausführen
 
-**Ausgangszustand:** Die ```smartstore.tar```-Datei und die ```docker-compose.yml```-Datei liegen in demselben Ordner.
+**Ausgangszustand:** Die ```smartstore.tar```-Datei und die ```docker-compose.yml```-Datei liegen in demselben Ordner 
+> Es ist nicht unbedingt notwendig, dass beide Dateien in demselben Ordner liegen, vereinfacht die Sache aber.
+
 **Voraussetzungen:** ```docker``` und ```docker-compose``` müssen installiert sein.
+
+ **Docker Image laden**:
+
+   ```bash
+	docker load -i ./smartstore.tar 
+   ```
+
 
 **Docker Container starten**:
 
