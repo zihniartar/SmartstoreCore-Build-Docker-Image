@@ -36,7 +36,7 @@
    ```
 Hier wird zusätzlich noch ein mysql Image gestartet, der in der docker-compose.yml deklariert ist.
 
-
+--------------------prüfen:
 - Das Container starten
      ```bash
 	docker run --name smartstore smartstore
