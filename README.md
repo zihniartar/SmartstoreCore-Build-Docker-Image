@@ -22,19 +22,22 @@
 **Voraussetzungen:** ```docker``` und ```docker-compose``` müssen installiert sein.
 
  **Docker Image laden**:
-
+- Das Docker-Image aus dem tar-Archiv in Docker laden:
    ```bash
 	docker load -i ./smartstore.tar 
    ```
 
 
-**Docker Container starten**:
+**Docker Container erstellen und starten**:
 
-- Das Docker-Image aus dem tar-Archiv in Docker laden:
+- Einen Docker Container erstellen:
      ```bash
 	docker compose up
    ```
-- Das Image starten
+Hier wird zusätzlich noch ein mysql Image gestartet, der in der docker-compose.yml deklariert ist.
+
+
+- Das Container starten
      ```bash
 	docker run --name smartstore smartstore
    ```
