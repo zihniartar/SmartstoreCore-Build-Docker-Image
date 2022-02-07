@@ -30,7 +30,7 @@
 
 **Docker Container erstellen und starten**:
 
-- Einen Docker Container erstellen:
+- Einen Docker Container erstellen und starten:
      ```bash
 	docker compose up
    ```
